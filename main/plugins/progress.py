@@ -4,7 +4,7 @@ import time
 import json
 
 FINISHED_PROGRESS_STR = "█"
-UN_FINISHED_PROGRESS_STR = ""
+UN_FINISHED_PROGRESS_STR = "░"
 DOWNLOAD_LOCATION = "/app"
 
 
