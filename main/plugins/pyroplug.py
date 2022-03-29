@@ -83,7 +83,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i):
                     chat_id=sender,
                     video=file,
                     caption=caption,
-                    force_document=True,
+                    supports_streaming=True,
                     duration=duration,
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
